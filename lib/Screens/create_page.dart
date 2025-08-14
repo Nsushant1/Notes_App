@@ -9,7 +9,7 @@ class CreateNote extends StatelessWidget {
     final TextEditingController textEditingControllerTitle =
         TextEditingController();
     final TextEditingController textEditingControllerDescription =
-        TextEditingController();
+        TextEditingController(); 
 
     return Scaffold(
       appBar: AppBar(title: Text("Create Notes"), centerTitle: true),
